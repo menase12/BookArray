@@ -20,7 +20,7 @@ public class Main {
             System.out.print("Enter your books: ");
             title[counter] = keyboard.nextLine();
             quit = title[counter];
-            if(!quit.equalsIgnoreCase("q"))
+            if(quit.equalsIgnoreCase("q"))
                 break;
             System.out.print("Enter the author of the book: ");
             author[counter] = keyboard.nextLine();
